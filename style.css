@@ -226,10 +226,254 @@
 }
 
 /* responsive */
-@media (max-width: 770px) {   
+@media (max-width: 768px) {   
     #menu {
         display: none;
     }   
+    
+    #geral {
+        width: 375px;
+        margin: 0 auto;
+    }
+   
+    /* menu */
+    #navbar {
+       margin-left: 16px;
+    }
+
+    /* section */
+    #main {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        margin: 0 auto;
+    }
+
+    .imgPrincipal {
+       display: none;
+    }
+
+    .imgPrincipal2 {
+        display: block;
+        height: 300px;
+        width: 375px;
+    }
+
+    .titletext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        width: 343px;
+        height: 120px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+
+    .textButton {
+        height: 104px;
+        width: 343px;
+        margin-top: 38px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .right {
+        width: 343px;
+        height: 489px;
+        margin-top: 64px;
+
+    }
+
+    /* section dois */
+    .contentGeral {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 400px;
+        gap: 32px;
+       }
+
+       .threeCards {
+        width: 219px;
+        height: 129px;
+       }
+
+       .threeCards h2 {
+        font-size: 18px
+       }
+
+       .threeCards p {
+        font-size: 15px;
+       }
+}
+
+@media (max-width: 425px) {
+    #geral {
+        width: 375px;
+        margin: 0 auto;
+    }
+   
+    /* menu */
+    #navbar {
+       margin-left: 16px;
+    }
+
+    /* section */
+    #main {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        margin: 0 auto;
+    }
+
+    .imgPrincipal {
+       display: none;
+    }
+
+    .imgPrincipal2 {
+        display: block;
+        height: 300px;
+        width: 375px;
+    }
+
+    .titletext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        width: 343px;
+        height: 120px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+
+    .textButton {
+        height: 104px;
+        width: 343px;
+        margin-top: 38px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .right {
+        width: 343px;
+        height: 489px;
+        margin-top: 64px;
+
+    }
+
+    /* section dois */
+    .contentGeral {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 400px;
+        gap: 32px;
+       }
+
+       .threeCards {
+        width: 219px;
+        height: 129px;
+       }
+
+       .threeCards h2 {
+        font-size: 18px
+       }
+
+       .threeCards p {
+        font-size: 15px;
+       }
+}
+
+@media (max-width: 375px) {
+    #geral {
+        width: 375px;
+        margin: 0 auto;
+    }
+   
+    /* menu */
+    #navbar {
+       margin-left: 16px;
+    }
+
+    /* section */
+    #main {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        margin: 0 auto;
+    }
+
+    .imgPrincipal {
+       display: none;
+    }
+
+    .imgPrincipal2 {
+        display: block;
+        height: 300px;
+        width: 375px;
+    }
+
+    .titletext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        width: 343px;
+        height: 120px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+
+    .textButton {
+        height: 104px;
+        width: 343px;
+        margin-top: 38px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .right {
+        width: 343px;
+        height: 489px;
+        margin-top: 64px;
+
+    }
+
+    /* section dois */
+    .contentGeral {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 400px;
+        gap: 32px;
+       }
+
+       .threeCards {
+        width: 219px;
+        height: 129px;
+       }
+
+       .threeCards h2 {
+        font-size: 18px
+       }
+
+       .threeCards p {
+        font-size: 15px;
+       }
 }
 
 @media (max-width: 320px) {
